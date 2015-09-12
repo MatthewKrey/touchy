@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  post 'twilio/voice' => 'twilio#voice'
   devise_for :users
   resources :users, :messages, :tags
 
@@ -57,4 +58,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
 end
