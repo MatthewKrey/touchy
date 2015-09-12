@@ -7,8 +7,6 @@ class TwilioController < ApplicationController
 
   skip_before_action :verify_authenticity_token
 
-  require 'twilio-ruby'
-
  # credentials
  # account_sid = Rails.application.secrets.twilio_client_id
  # auth_token = Rails.application.secrets.twilio_auth_token
