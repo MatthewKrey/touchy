@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);
 
-$body-bg: #8edee1;
+$body-bg: #DAEDF9;
 $navbar-default-bg: #ffffff;
 $navbar-default-link-color: #462118;
 $navbar-default-brand-color: #462118;
-$btn-primary-bg: #e1933c;
-// e1933c
-// 8edee1
+$btn-primary-bg: #f89a47;
 $jumbotron-bg: #ffffff;
 $btn-primary-color: #462118;
 $btn-default-bg: #ecf0f1;
@@ -32,4 +30,13 @@ $btn-default-bg: #ecf0f1;
 
 .navbar-brand {
 	font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.centerfy img{
+    margin: 0 auto;
+}
+
+.centerfy{
+  text-align: center;
 }

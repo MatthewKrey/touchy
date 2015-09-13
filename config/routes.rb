@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # post 'twilio/voice' => 'twilio#voice'
   root 'welcome#index'
   get 'about' => 'welcome#about'
+  get 'chat' => 'welcome#chat'
   devise_for :users
   resources :users, :messages, :tags
 
