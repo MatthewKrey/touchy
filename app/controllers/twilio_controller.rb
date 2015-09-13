@@ -13,10 +13,7 @@ class TwilioController < ApplicationController
  # phone_number = Rails.application.secrets.twilio_phone_number
  # test_number = Rails.application.secrets.twilio_test_number
 
- account_sid = 'AC94e3c2807c21b3f85d3c1872d18f8783'
- auth_token = '09af12a632438597b453cb07e8a27978'
- phone_number = '+16509841337'
- test_number = '+15005550006'
+
 
  # users
  touchy_bot = phone_number
