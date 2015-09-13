@@ -18,7 +18,7 @@ class ComfortMe
     test,tests,testing,IV,lose,losing,loss,hair,mutate,mutation,mutations,prevent,
     prevents,prevention,morbid,cancer,cancerous,chemo,chemotherapy,echocardiogram,
     tired,tiring,needles,blood,release,forgiveness,vulnerable, vulnerability,
-    sweetness,sweet,welcoming,welcome,emotional,emotion,emotionscontrol,controls,
+    sweetness,sweet,welcoming,welcome,emotional,emotion,emotions,control,controls,
     controlling,body,own,ownership
   }
 
