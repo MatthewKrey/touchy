@@ -1,18 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);
 
-$body-bg: #e1933c;
+$body-bg: #8edee1;
 $navbar-default-bg: #ffffff;
 $navbar-default-link-color: #462118;
 $navbar-default-brand-color: #462118;
-$btn-primary-bg: #8edee1;
-
+$btn-primary-bg: #e1933c;
+// e1933c
+// 8edee1
 $jumbotron-bg: #ffffff;
 $btn-primary-color: #462118;
 $btn-default-bg: #ecf0f1;
 
-
 @import "bootstrap-sprockets";
 @import 'bootstrap';
+
+.navbar.navbar-fixed-bottom {
+  background-color: black;
+  height: 15%;
+  padding: 2%;
+}
+
+.btn-group-justified > .btn-group .btn {
+  background-color: black;
+  height: 100%;
+  border: none;
+}
+
+.btn-group-justified > .btn-group .btn.focus {
+  outline: none;
+}
 
 .center {
 	text-align: center;
