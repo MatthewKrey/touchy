@@ -24,20 +24,18 @@ class ComfortMe
 
   def initialize(message)
     @message = message
+    #binding.pry
   end
 
   def talk_to_comfort_me_bot
-    @message.each do |word|
-      if @message.include?(COMFORT_FLAGS) == true
-        COMFORT_ME_BOT.sample
-      else
-        "whatchu want girl?"
-      end
+    if COMFORT_FLAGS.any? {|word| @message.include?(word) }
+      COMFORT_ME_BOT.sample
+    else
+      puts "whatchu want girl?"
     end
   end
-  
-  # message.sample
 
 end
 
-help = ComfortMe.new("I am just worried that I am going to lose all of my hair")
+comfort_me = ComfortMe.new("I am just worried that I am going to lose all of my hair")
+puts comfort_me.talk_to_comfort_me_bot
