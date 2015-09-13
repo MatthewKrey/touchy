@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-  post 'twilio/voice' => 'twilio#voice'
+  get 'welcome/index'
+
+  # post 'twilio/voice' => 'twilio#voice'
+  root 'welcome#index'
   devise_for :users
   resources :users, :messages, :tags
 

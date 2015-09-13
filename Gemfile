@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'twilio-ruby', '~> 4.2.1'
+gem 'bootstrap-sass'
 
 
 # Use ActiveModel has_secure_password
