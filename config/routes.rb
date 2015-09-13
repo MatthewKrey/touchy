@@ -1,3 +1,4 @@
+require_relative '../config/environment.rb'
 Rails.application.routes.draw do
   root to: 'messages#index'
   # post 'twilio/voice' => 'twilio#voice'
