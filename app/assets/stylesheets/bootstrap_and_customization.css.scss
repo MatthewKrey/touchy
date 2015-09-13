@@ -1,13 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);
 
-$body-bg: #ecf0f1;
+$body-bg: #e1933c;
 $navbar-default-bg: #ffffff;
-$navbar-default-link-color: #34495e;
-$navbar-default-brand-color: #c0392b;
-$brand-primary: #c0392b;
+$navbar-default-link-color: #462118;
+$navbar-default-brand-color: #462118;
+$btn-primary-bg: #8edee1;
+
 $jumbotron-bg: #ffffff;
-$btn-primary-color: #ecf0f1;
+$btn-primary-color: #462118;
 $btn-default-bg: #ecf0f1;
+
 
 @import "bootstrap-sprockets";
 @import 'bootstrap';
