@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'welcome/index'
+  # get 'welcome/index'
 
   # post 'twilio/voice' => 'twilio#voice'
   root 'welcome#index'
