@@ -1,2 +1,2 @@
 # touchy
-App for cancer hackathon 
+App for cancer hackathon. Deployment pending. 
