@@ -27,19 +27,17 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'twilio-ruby', '~> 4.2.1'
 gem 'bootstrap-sass'
 
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+end
+
+group :test do
+  gem 'awesome_print'
+  gem 'guard-rspec', require: false
+  gem 'simplecov', require: false
+  gem 'rspec-rails', '~> 3.1'
+  gem 'webmock'
 end
 
 group :development do
