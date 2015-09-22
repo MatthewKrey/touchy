@@ -1,18 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Open+Sans);
 
-$body-bg: #e1933c;
+$body-bg: #DAEDF9;
 $navbar-default-bg: #ffffff;
 $navbar-default-link-color: #462118;
 $navbar-default-brand-color: #462118;
-$btn-primary-bg: #8edee1;
-
+$btn-primary-bg: #f89a47;
 $jumbotron-bg: #ffffff;
 $btn-primary-color: #462118;
 $btn-default-bg: #ecf0f1;
 
-
 @import "bootstrap-sprockets";
 @import 'bootstrap';
+
+.navbar.navbar-fixed-bottom {
+  background-color: black;
+  height: 12%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 2.5em;
+}
 
 .center {
 	text-align: center;
@@ -20,4 +30,13 @@ $btn-default-bg: #ecf0f1;
 
 .navbar-brand {
 	font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.centerfy img{
+    margin: 0 auto;
+}
+
+.centerfy{
+  text-align: center;
 }
